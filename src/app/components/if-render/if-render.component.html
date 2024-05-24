@@ -1,0 +1,9 @@
+<div class="container">
+  <p *ngIf="canShow">if-render works!</p>
+  <p *ngIf="name === 'teste'; else nameNotFound">Testando</p>
+  <ng-template #nameNotFound>
+    <div>
+      <p>Nome diferente de "teste"</p>
+    </div>
+  </ng-template>
+</div>

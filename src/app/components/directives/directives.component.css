@@ -1,0 +1,11 @@
+.underline-title {
+  text-decoration: underline;
+}
+
+.green-title {
+  color: lightgreen;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
